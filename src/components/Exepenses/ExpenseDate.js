@@ -3,7 +3,7 @@ import React  from 'react';
 import  './ExpenseDate.css';
 
 
-function ExpenseDate(props) {
+const ExpenseDate = (props) => {
 
     const mes = props.date.toLocaleString('es-ES', { month : 'long'});
     const dia = props.date.toLocaleString('es-ES', { day : '2-digit'});
